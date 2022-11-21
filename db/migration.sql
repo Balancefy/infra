@@ -153,18 +153,17 @@ VALUES (1, 1, 1),
 INSERT INTO Dica (titulo, descricao, tema)
 VALUES ('Invista em Renda Fixa', 'Você sabia que pode investir em renda fixa, se procura uma opção mais segura? É o tipo de investimento mais recomendado para os aspirantes!', 'Investientos');
 
-INSERT INTO Usuario(nome, email, senha, avatar, banner, data_nasc, tipo, created_at) 
-    VALUES ('Letícia Carvalho', 'leticia.carvalho@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '1avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-    VALUES ('Fernando Souza', 'fernando.souza@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '2avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-    VALUES ('Giovanni Campos', 'giovanni.campos@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '3avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-    VALUES ('Catarina Campos', 'catarina.campos@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '4avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-    VALUES ('Lucas Santos', 'lucas.santos@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '5avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-    VALUES ('Carolina Santos', 'carolina.santos@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '6avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-    VALUES ('Breno Moraes', 'breno.moraes@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '7avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-    VALUES ('Vanessa Aurora', 'vanessa.aurora@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '8avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-    VALUES ('Eliza Almeida', 'eliza.almeida@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '9avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-    VALUES ('Olivia Farias', 'olivia.farias@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '10avatar/image.png', '', '2002-05-05', 'DEFAULT', '2022-09-28 02:41:20.79+00'),
-
+INSERT INTO Usuario(nome, email, senha, avatar, banner, data_nasc, tipo) 
+    VALUES ('Letícia Carvalho', 'leticia.carvalho@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '1avatar/image.png', '', '2002-05-05', 'DEFAULT'),
+    VALUES ('Fernando Souza', 'fernando.souza@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '2avatar/image.png', '', '2002-05-05', 'DEFAULT'),
+    VALUES ('Giovanni Campos', 'giovanni.campos@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '3avatar/image.png', '', '2002-05-05', 'DEFAULT'),
+    VALUES ('Catarina Campos', 'catarina.campos@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '4avatar/image.png', '', '2002-05-05', 'DEFAULT'),
+    VALUES ('Lucas Santos', 'lucas.santos@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '5avatar/image.png', '', '2002-05-05', 'DEFAULT'),
+    VALUES ('Carolina Santos', 'carolina.santos@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '6avatar/image.png', '', '2002-05-05', 'DEFAULT'),
+    VALUES ('Breno Moraes', 'breno.moraes@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '7avatar/image.png', '', '2002-05-05', 'DEFAULT'),
+    VALUES ('Vanessa Aurora', 'vanessa.aurora@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '8avatar/image.png', '', '2002-05-05', 'DEFAULT'),
+    VALUES ('Eliza Almeida', 'eliza.almeida@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '9avatar/image.png', '', '2002-05-05', 'DEFAULT'),
+    VALUES ('Olivia Farias', 'olivia.farias@gmail.com', '$2a$10$Hiv8QzaSZE5iUJtSZp0.HOVYbU2Dfm0yMm4rpYj6V0UveMMbbgzmK', '10avatar/image.png', '', '2002-05-05', 'DEFAULT');
 
 INSERT INTO Conta(renda, progresso, status, fk_usuario) 
     VALUES (3000, 10, 1, 1),
@@ -176,4 +175,15 @@ INSERT INTO Conta(renda, progresso, status, fk_usuario)
     VALUES (3000, 25, 1, 7),
     VALUES (2000, 10, 1, 8),
     VALUES (1000, 30, 1, 9),
-    VALUES (6000, 05, 1, 10),
+    VALUES (6000, 05, 1, 10);
+
+
+INSERT INTO Topico(titulo, conteudo, fk_conta) 
+    VALUES ('Economizar', 'Eae galera, tava precisando de algumas dicas pra economizar, podem me ajudar?', 1),
+    VALUES ('Viagens!!', 'Quero muito viajar pra fora, sabem sites para comparar o preço de passagem?', 2),
+    VALUES ('Dicas para economizar!', 'O principal é anotar todos seus gastos e ganhos e ter em mente seus objetivos, esse app ajuda muito pra isso!', 3),
+    VALUES ('Investimentos', 'Pessoal, sabem se renda fixa rende mais que renda variável?', 4),
+    VALUES ('Help!', 'Não consigo parar de gastar com coisas bobas, como me organazizar? kkkkj', 5),
+    VALUES ('Necessito de dicas', 'Alguem sabe cursos bons e baratos para aprender sobre investimento?', 6),
+    VALUES ('Dica!!!', 'Usem e abusem das ferramentas desse app, me ajudaram demais!', 7),
+    VALUES ('ATENÇÃO!!!', 'Galera, to fazendo um cursinho de investimentos, querem que eu trago um resuminho pra vcs de cada aula?', 10);
